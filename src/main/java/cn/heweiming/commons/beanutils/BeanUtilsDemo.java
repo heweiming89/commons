@@ -1,4 +1,4 @@
-package cn.heweiming.commons.beanUtils;
+package cn.heweiming.commons.beanutils;
 
 import org.junit.Test;
 
