@@ -138,6 +138,13 @@
 			<version>1.4</version>
 		</dependency>
 
+		<!-- JavaMail -->
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.5.5</version>
+		</dependency>
+
 		<!-- Commons IO -->
 		<dependency>
 			<groupId>commons-io</groupId>
@@ -166,12 +173,20 @@
 			<version>3.4</version>
 		</dependency>
 
-		<!-- JavaMail -->
+		<!-- Commons Validator -->
 		<dependency>
-			<groupId>com.sun.mail</groupId>
-			<artifactId>javax.mail</artifactId>
-			<version>1.5.5</version>
+			<groupId>commons-validator</groupId>
+			<artifactId>commons-validator</artifactId>
+			<version>1.5.0</version>
 		</dependency>
+
+		<!-- HttpClient -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.3.6</version>
+		</dependency>
+
 
 
 
